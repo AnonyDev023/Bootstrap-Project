@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0\css\font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<title>Blog</title>
+</head>
+<body>
+	<!--Header-top-start-->
+	<div id="home_head"></div>
+	<section class="b_header_top_section">
+		<div class="container b_header_top_container">
+			<div class="row b_header_top_row justify-content-between">
+				<div class="col-md-6 d-flex align-items-center">
+					<div class="b_header_col_content_div w-100 h-100">
+						<div class="row b_header_left_col_row h-100">
+							<div class="col-md-4 d-flex align-items-center justify-content-center b_header_top_border_css">
+								<div class="b_header_top_left_content_div d-flex align-items-center">
+									<i class="fa fa-globe me-2" aria-hidden="true"></i>
+									<p class="b_header_left_para_css mb-0">12 Queen Park, LA, USA</p>
+								</div>
+							</div>
+							<div class="col-md-4 d-flex align-items-center justify-content-center b_header_top_border_css">
+								<div class="b_header_top_left_content_div d-flex align-items-center">
+									<i class="fa fa-envelope-o me-2" aria-hidden="true"></i>
+									<p class="b_header_left_para_css mb-0">
+										<a href="#" class="b_header_href">
+											help@example.com
+										</a>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-4 d-flex align-items-center justify-content-center b_header_top_border_css">
+								<div class="b_header_top_left_content_div d-flex align-items-center">
+									<i class="fa fa-clock-o me-2" aria-hidden="true"></i>
+									<p class="b_header_left_para_css mb-0">Mon _ Sat: 9.00 to 18.00</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5 d-flex align-items-center justify-content-end">
+					<div class="b_header_col_content_div">
+						<div class="row b_header_right_row align-items-center">
+							<div class="col-6">
+								<div class="b_header_search_div d-flex align-items-center">
+									<input type="text" name="text" class="b_header_search" placeholder="Search...">
+									<i class="fa fa-search" aria-hidden="true"></i>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="b_header_btn_div d-flex">
+									<div class="b_header_btn_scale_div"></div>
+									<div class="b_header_btn_content_div d-flex align-items-center">
+										<p class="b_header_appoint_css mb-0">APPOINTMENT</p>
+										<i class="fa fa-long-arrow-right ms-3" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Header-top-end-->
+
+	<!--Navbar-start-->
+	<nav class="navbar b_navbar navbar-expand-lg sticky-top mt-md-3">
+	  <!-- <div class="container-fluid"> -->
+	  	<div class="navbar_logo_div">
+		    <a class="navbar-brand" href="Home.html">
+		    	<img src="Images/d-r-logo.svg" class="navbar_logo_css">
+		    </a>
+		</div>
+	    <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+	      <span class="navbar-toggler-icon b_navbar_toggler_icon"></span>
+	    </button>
+	    <div class="offcanvas b_offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+	      <div class="offcanvas-header flex-column">
+	        <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
+	        <button type="button" class="btn-close text-reset mb-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	        <img src="Images/light-logo.svg" class="offcanvas_logo_css">
+	      </div>
+	      <div class="offcanvas-body">
+	        <ul class="navbar-nav justify-content-end pe-md-3">
+
+	          <li class="nav-item dropdown my-auto">
+	            <a class="nav-link b_nav_link dropdown-toggle d-flex align-items-center" href="" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="40,40">
+	              HOME
+	              	<div class="click_div ms-auto">
+	            		<i class="fa fa-angle-down" aria-hidden="true"></i>
+	            	</div>
+	            </a>
+	            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="Home.html">Home Page 01</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="Home.html">Home Page 02</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="Home.html">Home Page 03</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="Home.html">OneHome Page</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="Home.html">RTL Home</a></li>
+	            </ul>
+	          </li>
+
+	          <li class="nav-item dropdown my-auto">
+	            <a class="nav-link b_nav_link dropdown-toggle d-flex align-items-center" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="40,40">
+	              ABOUT
+	              	<div class="click_div ms-auto">
+	            		<i class="fa fa-angle-down" aria-hidden="true"></i>
+	            	</div>
+	            </a>
+	            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item" href="About.html">About Immigo</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="About.html">Our Team</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="About.html">FAQ'S</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="About.html">404</a></li>
+	            </ul>
+	          </li>
+
+	          <li class="nav-item dropdown my-auto">
+	            <a class="nav-link b_nav_link dropdown-toggle d-flex align-items-center" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="40,40">
+	              COUNTRIES
+	              	<div class="click_div ms-auto">
+	            		<i class="fa fa-angle-down" aria-hidden="true"></i>
+	            	</div>
+	            </a>
+	            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="India.html">United States</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="India.html">India</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="India.html">United Kingdom</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="India.html">The Bahamas</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="India.html">Canada</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="India.html">Australia</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="India.html">Sri Lanka</a></li>
+	            </ul>
+	          </li>
+
+	          <li class="nav-item dropdown my-auto">
+	            <a class="nav-link b_nav_link dropdown-toggle d-flex align-items-center" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="40,40">
+	              BLOG
+	              	<div class="click_div ms-auto">
+	            		<i class="fa fa-angle-down" aria-hidden="true"></i>
+	            	</div>
+	            </a>
+	            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="Blog.html">1 Column</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="Blog.html">2 Columns</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="Blog.html">3 Cloumns</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item b_dropdown_item" href="Blog.html">Single Post</a></li>
+	            </ul>
+	          </li>
+
+	          <!-- <li class="nav-item dropdown my-auto ofcanvas_blog_border">
+	            <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-offset="40,40">
+	              CONTACT
+	              	<div class="click_div ms-auto">
+	            		<i class="fa fa-angle-down" aria-hidden="true"></i>
+	            	</div>
+	            </a>
+	            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item" href="#">About Immigo</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item" href="#">Our Team</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item" href="#">FAQ'S</a></li>
+	              <li class="dropdown_border_bottom_css"><a class="dropdown-item" href="#">404</a></li>
+	            </ul>
+	          </li> -->
+
+	          <li class="nav-item dropdown my-auto ofcanvas_blog_border">
+	            <a class="nav-link b_nav_link d-flex align-items-center" href="Contact.html" role="button"  aria-expanded="false" data-bs-offset="40,40">
+	              CONTACT
+	              	<div class="click_div ms-auto">
+	            		<i class="fa fa-angle-down" aria-hidden="true"></i>
+	            	</div>
+	            </a>
+	          </li>
+
+	        </ul>
+	        <div class="btns_div_nav mt-3 mt-md-0">
+	        	<a class="href_css" href="#">
+			        <div class="navbar_user_icon_div b_navbar_user_icon_div d-flex justify-content-center align-items-center ms-md-auto me-md-5">
+			        	<i class="fa fa-user-o" aria-hidden="true"></i>
+			        </div>
+		    	</a>
+		        <div class="navbar_btn_div">
+		        	<a href="#" class="href_css">
+			        	<button type="button" class="btn h-100 b_btn">ENQUIRY
+			        		<i class="fa fa-angle-right" aria-hidden="true"></i>
+			        	</button>
+		        	</a>
+		        </div>
+	    	</div>
+
+	        <div class="ofcanvas_contact_div mt-3">
+	        	<div class="ofcanvas_contact_body_div d-flex flex-column">
+	  				<p class="ofcanvas_contact_div_head">Contact Info</p>
+	  				<p class="ofcanvas_contact_div_address mb-0">
+	  					Chicago 12, Melborne City, USA
+	  				</p>
+	  				<p class="ofcanvas_contact_div_address mb-0">
+	  					+88-01682648101
+	  				</p>
+	  				<p class="ofcanvas_contact_div_address mb-0">
+	  					info@example.com
+	  				</p>
+	  				<div class="social_links_div_circles d-flex mt-4">
+									<div class="social_div_circles_body">
+										<a href="#" class="href_css">
+											<div class="main_social_div_circles_body b_main_social_div_circles_body d-flex justify-content-center align-items-center">
+												<i class="fa fa-facebook" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+									<div class="social_div_circles_body">
+										<a href="#" class="href_css">
+											<div class="main_social_div_circles_body b_main_social_div_circles_body d-flex justify-content-center align-items-center">
+												<i class="fa fa-twitter" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+									<div class="social_div_circles_body">
+										<a href="#" class="href_css">
+											<div class="main_social_div_circles_body b_main_social_div_circles_body d-flex justify-content-center align-items-center">
+												<i class="fa fa-vine" aria-hidden="true"></i>
+											</div>
+										</a>
+									</div>
+					</div>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
+	  <!-- </div> -->
+	</nav>
+	<!--Navbar-end-->
+
+	<!--Blog-slider-start-->
+	<section class="b_slider_section">
+		<div class="b_slider_overlay"></div>
+		<div class="container b_slider_container">
+			<div class="b_slider_content_div d-flex flex-column">
+				<div class="b_slider_c_head">
+					<p class="b_slider_c_head_css mb-0 text-center">2 Columns</p>
+				</div>
+				<div class="b_slider_c_para">
+					<div class="b_slider_c_para_div d-flex align-items-center">
+						<a href="Home.html" class="b_slider_home_css me-3">
+							Home
+						</a>
+						<i class="fa fa-angle-right b_slider_angle_icon me-2" aria-hidden="true"></i>
+						<p class="b_home_2column_css mb-0">2 Columns</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Blog-slider-end-->
+
+	<!--Tab-pane-blog-start-->
+	<section class="b_tab_pane_section">
+		<div class="container b_tab_pane_container">
+
+			<div class="tab-content" id="pills-tabContent">
+
+			  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+			  	<div class="row b_tab_pane_content_row g-4 justify-content-center">
+			  		<div class="col-md-6">
+			  			<div class="col_t_p_content_div d-flex p-3 position-relative">
+
+			  				<div class="blog_date_div d-flex justify-content-center align-items-center text-center">
+			  				04<br>MAR
+			  				</div>
+			  				<div class="blog_date_div_one"></div>
+			  				<div class="blog_date_div_two"></div>
+
+			  				<div class="card b_t_p_card">
+							  <div class="row g-0">
+							    <div class="col-md-4">
+							    	<div class="b_post_img_div d-flex">
+							      		<img src="Images/visa-15-200x292.jpg" class="img-fluid b_post_img_css" alt="...">
+							      		<div class="b_blog_img_overlay_div"></div>
+							      	</div>
+							    </div>
+							    <div class="col-md-8 my-auto">
+							      <div class="card-body">
+							      	<div class="footer_post_head_div d-flex align-items-center">
+										<div class="footer_post_dot_div b_footer_post_dot_div me-2">
+											<i class="fa fa-circle" aria-hidden="true"></i>
+										</div>
+										<p class="footer_post_head_css b_footer_post_head_css mb-0">IMMIGRATION</p>
+										<img src="Images/user_icon.png" class="b_user_icon_css">
+									</div>
+									<p class="footer_para_one b_footer_para_one mb-0">Post By: admin</p>
+							        <h5 class="card-title b_blg_card_title mt-2 mb-3">
+							        	<a href="#" class="b_blog_title_gref">
+							        		Project concepts or related queries should be
+							        	</a>
+							    	</h5>
+							        <p class="card-text b_Blog_para">Nemo ipsam egestas volute turpis dolores and aliquam quaerat ...</p>
+							        <div class="b_blog_footer_div d-flex justify-content-between">
+							        	<div class="b_blog_footer_readmore">
+							        		<a href="#" class="b_readmore_href_css d-flex align-items-center">
+								        		<p class="b_readmore_css mb-0">READ MORE</p>
+								        		<i class="fa fa-angle-right ms-2" aria-hidden="true"></i>
+							        		</a>
+							        	</div>
+							        	<div class="b_blog_comment_div d-flex align-items-center">
+							        		<i class="fa fa-comment-o" aria-hidden="true"></i>
+							        		<p class="b_blog_comment_css mb-0 ms-2">0 Comments</p>
+							        	</div>
+							        </div>
+
+							      </div>
+							    </div>
+							  </div>
+							</div>
+			  			</div>
+			  		</div>
+			  		<div class="col-md-6">
+			  			
+			  			<div class="col_t_p_content_div d-flex p-3 position-relative">
+
+			  				<div class="blog_date_div d-flex justify-content-center align-items-center text-center">
+			  				05<br>FEB
+			  				</div>
+			  				<div class="blog_date_div_one"></div>
+			  				<div class="blog_date_div_two"></div>
+
+			  				<div class="card b_t_p_card">
+							  <div class="row g-0">
+							    <div class="col-md-4">
+							    	<div class="b_post_img_div d-flex">
+							      		<img src="Images/visa-16-200x292.jpg" class="img-fluid b_post_img_css" alt="...">
+							      		<div class="b_blog_img_overlay_div"></div>
+							      	</div>
+							    </div>
+							    <div class="col-md-8 my-auto">
+							      <div class="card-body">
+							      	<div class="footer_post_head_div d-flex align-items-center">
+										<div class="footer_post_dot_div b_footer_post_dot_div me-2">
+											<i class="fa fa-circle" aria-hidden="true"></i>
+										</div>
+										<p class="footer_post_head_css b_footer_post_head_css mb-0">IMMIGRATION</p>
+										<img src="Images/user_icon.png" class="b_user_icon_css">
+									</div>
+									<p class="footer_para_one b_footer_para_one mb-0">Post By: admin</p>
+							        <h5 class="card-title b_blg_card_title mt-2 mb-3">
+							        	<a href="#" class="b_blog_title_gref">
+							        		Covid-19 And Its Impact On UK Immigration
+							        	</a>
+							    	</h5>
+							        <p class="card-text b_Blog_para">Indignation and dislike men who are beguiled and demoralized ...</p>
+							        <div class="b_blog_footer_div d-flex justify-content-between">
+							        	<div class="b_blog_footer_readmore">
+							        		<a href="#" class="b_readmore_href_css d-flex align-items-center">
+								        		<p class="b_readmore_css mb-0">READ MORE</p>
+								        		<i class="fa fa-angle-right ms-2" aria-hidden="true"></i>
+							        		</a>
+							        	</div>
+							        	<div class="b_blog_comment_div d-flex align-items-center">
+							        		<i class="fa fa-comment-o" aria-hidden="true"></i>
+							        		<p class="b_blog_comment_css mb-0 ms-2">0 Comments</p>
+							        	</div>
+							        </div>
+
+							      </div>
+							    </div>
+							  </div>
+							</div>
+			  			</div>
+
+			  		</div>
+			  		<div class="col-md-6">
+			  			
+			  			<div class="col_t_p_content_div d-flex p-3 position-relative">
+
+			  				<div class="blog_date_div d-flex justify-content-center align-items-center text-center">
+			  				05<br>FEB
+			  				</div>
+			  				<div class="blog_date_div_one"></div>
+			  				<div class="blog_date_div_two"></div>
+
+			  				<div class="card b_t_p_card">
+							  <div class="row g-0">
+							    <div class="col-md-4">
+							    	<div class="b_post_img_div d-flex">
+							      		<img src="Images/visa-14-200x292.jpg" class="img-fluid b_post_img_css" alt="...">
+							      		<div class="b_blog_img_overlay_div"></div>
+							      	</div>
+							    </div>
+							    <div class="col-md-8 my-auto">
+							      <div class="card-body">
+							      	<div class="footer_post_head_div d-flex align-items-center">
+										<div class="footer_post_dot_div b_footer_post_dot_div me-2">
+											<i class="fa fa-circle" aria-hidden="true"></i>
+										</div>
+										<p class="footer_post_head_css b_footer_post_head_css mb-0">IMMIGRATION</p>
+										<img src="Images/user_icon.png" class="b_user_icon_css">
+									</div>
+									<p class="footer_para_one b_footer_para_one mb-0">Post By: admin</p>
+							        <h5 class="card-title b_blg_card_title mt-2 mb-3">
+							        	<a href="#" class="b_blog_title_gref">
+							        		Customers Applying for Priority Visas In Countries
+							        	</a>
+							    	</h5>
+							        <p class="card-text b_Blog_para">Fusce sollicitudin ante et felis cursus, id tristique ex lets go hehe...</p>
+							        <div class="b_blog_footer_div d-flex justify-content-between">
+							        	<div class="b_blog_footer_readmore">
+							        		<a href="#" class="b_readmore_href_css d-flex align-items-center">
+								        		<p class="b_readmore_css mb-0">READ MORE</p>
+								        		<i class="fa fa-angle-right ms-2" aria-hidden="true"></i>
+							        		</a>
+							        	</div>
+							        	<div class="b_blog_comment_div d-flex align-items-center">
+							        		<i class="fa fa-comment-o" aria-hidden="true"></i>
+							        		<p class="b_blog_comment_css mb-0 ms-2">0 Comments</p>
+							        	</div>
+							        </div>
+
+							      </div>
+							    </div>
+							  </div>
+							</div>
+			  			</div>
+
+			  		</div>
+			  		<div class="col-md-6">
+			  			
+			  			<div class="col_t_p_content_div d-flex p-3 position-relative">
+
+			  				<div class="blog_date_div d-flex justify-content-center align-items-center text-center">
+			  				05<br>FEB
+			  				</div>
+			  				<div class="blog_date_div_one"></div>
+			  				<div class="blog_date_div_two"></div>
+
+			  				<div class="card b_t_p_card">
+							  <div class="row g-0">
+							    <div class="col-md-4">
+							    	<div class="b_post_img_div d-flex">
+							      		<img src="Images/news-13-200x292.jpg" class="img-fluid b_post_img_css" alt="...">
+							      		<div class="b_blog_img_overlay_div"></div>
+							      	</div>
+							    </div>
+							    <div class="col-md-8 my-auto">
+							      <div class="card-body">
+							      	<div class="footer_post_head_div d-flex align-items-center">
+										<div class="footer_post_dot_div b_footer_post_dot_div me-2">
+											<i class="fa fa-circle" aria-hidden="true"></i>
+										</div>
+										<p class="footer_post_head_css b_footer_post_head_css mb-0">IMMIGRATION</p>
+										<img src="Images/user_icon.png" class="b_user_icon_css">
+									</div>
+									<p class="footer_para_one b_footer_para_one mb-0">Post By: admin</p>
+							        <h5 class="card-title b_blg_card_title mt-2 mb-3">
+							        	<a href="#" class="b_blog_title_gref">
+							        		UK to offers point based Immigration Process
+							        	</a>
+							    	</h5>
+							        <p class="card-text b_Blog_para">UK to offers point based consequences that extremely in ...</p>
+							        <div class="b_blog_footer_div d-flex justify-content-between">
+							        	<div class="b_blog_footer_readmore">
+							        		<a href="#" class="b_readmore_href_css d-flex align-items-center">
+								        		<p class="b_readmore_css mb-0">READ MORE</p>
+								        		<i class="fa fa-angle-right ms-2" aria-hidden="true"></i>
+							        		</a>
+							        	</div>
+							        	<div class="b_blog_comment_div d-flex align-items-center">
+							        		<i class="fa fa-comment-o" aria-hidden="true"></i>
+							        		<p class="b_blog_comment_css mb-0 ms-2">0 Comments</p>
+							        	</div>
+							        </div>
+
+							      </div>
+							    </div>
+							  </div>
+							</div>
+			  			</div>
+
+			  		</div>
+			  		<div class="col-md-6">
+			  			
+			  			<div class="col_t_p_content_div d-flex p-3 position-relative">
+
+			  				<div class="blog_date_div d-flex justify-content-center align-items-center text-center">
+			  				05<br>FEB
+			  				</div>
+			  				<div class="blog_date_div_one"></div>
+			  				<div class="blog_date_div_two"></div>
+
+			  				<div class="card b_t_p_card">
+							  <div class="row g-0">
+							    <div class="col-md-4">
+							    	<div class="b_post_img_div d-flex">
+							      		<img src="Images/news-14-200x292.jpg" class="img-fluid b_post_img_css" alt="...">
+							      		<div class="b_blog_img_overlay_div"></div>
+							      	</div>
+							    </div>
+							    <div class="col-md-8 my-auto">
+							      <div class="card-body">
+							      	<div class="footer_post_head_div d-flex align-items-center">
+										<div class="footer_post_dot_div b_footer_post_dot_div me-2">
+											<i class="fa fa-circle" aria-hidden="true"></i>
+										</div>
+										<p class="footer_post_head_css b_footer_post_head_css mb-0">IMMIGRATION</p>
+										<img src="Images/user_icon.png" class="b_user_icon_css">
+									</div>
+									<p class="footer_para_one b_footer_para_one mb-0">Post By: admin</p>
+							        <h5 class="card-title b_blg_card_title mt-2 mb-3">
+							        	<a href="#" class="b_blog_title_gref">
+							        		8 Benefits of Permanent Resident in Canada
+							        	</a>
+							    	</h5>
+							        <p class="card-text b_Blog_para">Cursus porta, feugiat primis in ultrice ligula risus auctor ...</p>
+							        <div class="b_blog_footer_div d-flex justify-content-between">
+							        	<div class="b_blog_footer_readmore">
+							        		<a href="#" class="b_readmore_href_css d-flex align-items-center">
+								        		<p class="b_readmore_css mb-0">READ MORE</p>
+								        		<i class="fa fa-angle-right ms-2" aria-hidden="true"></i>
+							        		</a>
+							        	</div>
+							        	<div class="b_blog_comment_div d-flex align-items-center">
+							        		<i class="fa fa-comment-o" aria-hidden="true"></i>
+							        		<p class="b_blog_comment_css mb-0 ms-2">0 Comments</p>
+							        	</div>
+							        </div>
+
+							      </div>
+							    </div>
+							  </div>
+							</div>
+			  			</div>
+
+			  		</div>
+			  		<div class="col-md-6">
+			  			
+			  			<div class="col_t_p_content_div d-flex p-3 position-relative">
+
+			  				<div class="blog_date_div d-flex justify-content-center align-items-center text-center">
+			  				05<br>FEB
+			  				</div>
+			  				<div class="blog_date_div_one"></div>
+			  				<div class="blog_date_div_two"></div>
+
+			  				<div class="card b_t_p_card">
+							  <div class="row g-0">
+							    <div class="col-md-4">
+							    	<div class="b_post_img_div d-flex">
+							      		<img src="Images/news-9-1-200x292.jpg" class="img-fluid b_post_img_css" alt="...">
+							      		<div class="b_blog_img_overlay_div"></div>
+							      	</div>
+							    </div>
+							    <div class="col-md-8 my-auto">
+							      <div class="card-body">
+							      	<div class="footer_post_head_div d-flex align-items-center">
+										<div class="footer_post_dot_div b_footer_post_dot_div me-2">
+											<i class="fa fa-circle" aria-hidden="true"></i>
+										</div>
+										<p class="footer_post_head_css b_footer_post_head_css mb-0">IMMIGRATION</p>
+										<img src="Images/user_icon.png" class="b_user_icon_css">
+									</div>
+									<p class="footer_para_one b_footer_para_one mb-0">Post By: admin</p>
+							        <h5 class="card-title b_blg_card_title mt-2 mb-3">
+							        	<a href="#" class="b_blog_title_gref">
+							        		Kickstart Your Visa ApprovalWith 4 Easy Steps
+							        	</a>
+							    	</h5>
+							        <p class="card-text b_Blog_para">Quaerat sodales sapien undo euismod purus and blandit laoreet ...</p>
+							        <div class="b_blog_footer_div d-flex justify-content-between">
+							        	<div class="b_blog_footer_readmore">
+							        		<a href="#" class="b_readmore_href_css d-flex align-items-center">
+								        		<p class="b_readmore_css mb-0">READ MORE</p>
+								        		<i class="fa fa-angle-right ms-2" aria-hidden="true"></i>
+							        		</a>
+							        	</div>
+							        	<div class="b_blog_comment_div d-flex align-items-center">
+							        		<i class="fa fa-comment-o" aria-hidden="true"></i>
+							        		<p class="b_blog_comment_css mb-0 ms-2">0 Comments</p>
+							        	</div>
+							        </div>
+
+							      </div>
+							    </div>
+							  </div>
+							</div>
+			  			</div>
+
+			  		</div>
+			  		<div class="col-md-6">
+			  			
+			  			<div class="col_t_p_content_div d-flex p-3 position-relative">
+
+			  				<div class="blog_date_div d-flex justify-content-center align-items-center text-center">
+			  				03<br>FEB
+			  				</div>
+			  				<div class="blog_date_div_one"></div>
+			  				<div class="blog_date_div_two"></div>
+
+			  				<div class="card b_t_p_card">
+							  <div class="row g-0">
+							    <div class="col-md-4">
+							    	<div class="b_post_img_div d-flex">
+							      		<img src="Images/news-9-1-200x292.jpg" class="img-fluid b_post_img_css" alt="...">
+							      		<div class="b_blog_img_overlay_div"></div>
+							      	</div>
+							    </div>
+							    <div class="col-md-8 my-auto">
+							      <div class="card-body">
+							      	<div class="footer_post_head_div d-flex align-items-center">
+										<div class="footer_post_dot_div b_footer_post_dot_div me-2">
+											<i class="fa fa-circle" aria-hidden="true"></i>
+										</div>
+										<p class="footer_post_head_css b_footer_post_head_css mb-0">IMMIGRATION</p>
+										<img src="Images/user_icon.png" class="b_user_icon_css">
+									</div>
+									<p class="footer_para_one b_footer_para_one mb-0">Post By: admin</p>
+							        <h5 class="card-title b_blg_card_title mt-2 mb-3">
+							        	<a href="#" class="b_blog_title_gref">
+							        		Citizenship Concept on How to Become a UK Citizen
+							        	</a>
+							    	</h5>
+							        <p class="card-text b_Blog_para">Proin eu blandit ante. Vestibulum tellus metus, mattis non ...</p>
+							        <div class="b_blog_footer_div d-flex justify-content-between">
+							        	<div class="b_blog_footer_readmore">
+							        		<a href="#" class="b_readmore_href_css d-flex align-items-center">
+								        		<p class="b_readmore_css mb-0">READ MORE</p>
+								        		<i class="fa fa-angle-right ms-2" aria-hidden="true"></i>
+							        		</a>
+							        	</div>
+							        	<div class="b_blog_comment_div d-flex align-items-center">
+							        		<i class="fa fa-comment-o" aria-hidden="true"></i>
+							        		<p class="b_blog_comment_css mb-0 ms-2">0 Comments</p>
+							        	</div>
+							        </div>
+
+							      </div>
+							    </div>
+							  </div>
+							</div>
+			  			</div>
+
+			  		</div>
+			  		<div class="col-md-6">
+			  			
+			  			<div class="col_t_p_content_div d-flex p-3 position-relative">
+
+			  				<div class="blog_date_div d-flex justify-content-center align-items-center text-center">
+			  				03<br>FEB
+			  				</div>
+			  				<div class="blog_date_div_one"></div>
+			  				<div class="blog_date_div_two"></div>
+
+			  				<div class="card b_t_p_card">
+							  <div class="row g-0">
+							    <div class="col-md-4">
+							    	<div class="b_post_img_div d-flex">
+							      		<img src="Images/news-10-200x292.jpg" class="img-fluid b_post_img_css" alt="...">
+							      		<div class="b_blog_img_overlay_div"></div>
+							      	</div>
+							    </div>
+							    <div class="col-md-8 my-auto">
+							      <div class="card-body">
+							      	<div class="footer_post_head_div d-flex align-items-center">
+										<div class="footer_post_dot_div b_footer_post_dot_div me-2">
+											<i class="fa fa-circle" aria-hidden="true"></i>
+										</div>
+										<p class="footer_post_head_css b_footer_post_head_css mb-0">IMMIGRATION</p>
+										<img src="Images/user_icon.png" class="b_user_icon_css">
+									</div>
+									<p class="footer_para_one b_footer_para_one mb-0">Post By: admin</p>
+							        <h5 class="card-title b_blg_card_title mt-2 mb-3">
+							        	<a href="#" class="b_blog_title_gref">
+							        		Failure to do this may result in delays Canada
+							        	</a>
+							    	</h5>
+							        <p class="card-text b_Blog_para">Augue iaculis purus and augue tempor congue magna egestas ...</p>
+							        <div class="b_blog_footer_div d-flex justify-content-between">
+							        	<div class="b_blog_footer_readmore">
+							        		<a href="#" class="b_readmore_href_css d-flex align-items-center">
+								        		<p class="b_readmore_css mb-0">READ MORE</p>
+								        		<i class="fa fa-angle-right ms-2" aria-hidden="true"></i>
+							        		</a>
+							        	</div>
+							        	<div class="b_blog_comment_div d-flex align-items-center">
+							        		<i class="fa fa-comment-o" aria-hidden="true"></i>
+							        		<p class="b_blog_comment_css mb-0 ms-2">0 Comments</p>
+							        	</div>
+							        </div>
+
+							      </div>
+							    </div>
+							  </div>
+							</div>
+			  			</div>
+
+			  		</div>
+			  	</div>
+
+			  </div>
+
+			  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+			  	
+			  	<div class="row b_tab_pane_content_row g-4 justify-content-center">
+			  		<div class="col-md-6">
+			  			<div class="col_t_p_content_div d-flex p-3 position-relative">
+
+			  				<div class="blog_date_div d-flex justify-content-center align-items-center text-center">
+			  				04<br>MAR
+			  				</div>
+			  				<div class="blog_date_div_one"></div>
+			  				<div class="blog_date_div_two"></div>
+
+			  				<div class="card b_t_p_card">
+							  <div class="row g-0">
+							    <div class="col-md-4">
+							    	<div class="b_post_img_div d-flex">
+							      		<img src="Images/visa-15-200x292.jpg" class="img-fluid b_post_img_css" alt="...">
+							      		<div class="b_blog_img_overlay_div"></div>
+							      	</div>
+							    </div>
+							    <div class="col-md-8 my-auto">
+							      <div class="card-body">
+							      	<div class="footer_post_head_div d-flex align-items-center">
+										<div class="footer_post_dot_div b_footer_post_dot_div me-2">
+											<i class="fa fa-circle" aria-hidden="true"></i>
+										</div>
+										<p class="footer_post_head_css b_footer_post_head_css mb-0">IMMIGRATION</p>
+										<img src="Images/user_icon.png" class="b_user_icon_css">
+									</div>
+									<p class="footer_para_one b_footer_para_one mb-0">Post By: admin</p>
+							        <h5 class="card-title b_blg_card_title mt-2 mb-3">
+							        	<a href="#" class="b_blog_title_gref">
+							        		Project concepts or related queries should be
+							        	</a>
+							    	</h5>
+							        <p class="card-text b_Blog_para">Nemo ipsam egestas volute turpis dolores and aliquam quaerat ...</p>
+							        <div class="b_blog_footer_div d-flex justify-content-between">
+							        	<div class="b_blog_footer_readmore">
+							        		<a href="#" class="b_readmore_href_css d-flex align-items-center">
+								        		<p class="b_readmore_css mb-0">READ MORE</p>
+								        		<i class="fa fa-angle-right ms-2" aria-hidden="true"></i>
+							        		</a>
+							        	</div>
+							        	<div class="b_blog_comment_div d-flex align-items-center">
+							        		<i class="fa fa-comment-o" aria-hidden="true"></i>
+							        		<p class="b_blog_comment_css mb-0 ms-2">0 Comments</p>
+							        	</div>
+							        </div>
+
+							      </div>
+							    </div>
+							  </div>
+							</div>
+			  			</div>
+			  		</div>
+			  		<div class="col-md-6">
+			  			
+			  			<div class="col_t_p_content_div d-flex p-3 position-relative">
+
+			  				<div class="blog_date_div d-flex justify-content-center align-items-center text-center">
+			  				05<br>FEB
+			  				</div>
+			  				<div class="blog_date_div_one"></div>
+			  				<div class="blog_date_div_two"></div>
+
+			  				<div class="card b_t_p_card">
+							  <div class="row g-0">
+							    <div class="col-md-4">
+							    	<div class="b_post_img_div d-flex">
+							      		<img src="Images/visa-16-200x292.jpg" class="img-fluid b_post_img_css" alt="...">
+							      		<div class="b_blog_img_overlay_div"></div>
+							      	</div>
+							    </div>
+							    <div class="col-md-8 my-auto">
+							      <div class="card-body">
+							      	<div class="footer_post_head_div d-flex align-items-center">
+										<div class="footer_post_dot_div b_footer_post_dot_div me-2">
+											<i class="fa fa-circle" aria-hidden="true"></i>
+										</div>
+										<p class="footer_post_head_css b_footer_post_head_css mb-0">IMMIGRATION</p>
+										<img src="Images/user_icon.png" class="b_user_icon_css">
+									</div>
+									<p class="footer_para_one b_footer_para_one mb-0">Post By: admin</p>
+							        <h5 class="card-title b_blg_card_title mt-2 mb-3">
+							        	<a href="#" class="b_blog_title_gref">
+							        		Covid-19 And Its Impact On UK Immigration
+							        	</a>
+							    	</h5>
+							        <p class="card-text b_Blog_para">Indignation and dislike men who are beguiled and demoralized ...</p>
+							        <div class="b_blog_footer_div d-flex justify-content-between">
+							        	<div class="b_blog_footer_readmore">
+							        		<a href="#" class="b_readmore_href_css d-flex align-items-center">
+								        		<p class="b_readmore_css mb-0">READ MORE</p>
+								        		<i class="fa fa-angle-right ms-2" aria-hidden="true"></i>
+							        		</a>
+							        	</div>
+							        	<div class="b_blog_comment_div d-flex align-items-center">
+							        		<i class="fa fa-comment-o" aria-hidden="true"></i>
+							        		<p class="b_blog_comment_css mb-0 ms-2">0 Comments</p>
+							        	</div>
+							        </div>
+
+							      </div>
+							    </div>
+							  </div>
+							</div>
+			  			</div>
+
+			  		</div>
+			  	</div>
+
+			  </div>
+			</div>
+			<ul class="nav nav-pills mb-3 justify-content-center mt-5" id="pills-tab" role="tablist">
+			  <li class="nav-item" role="presentation">
+			    <button class="nav-link active b_tab_pane_main" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">1</button>
+			  </li>
+			  <li class="nav-item b_tab_pane_margin" role="presentation">
+			    <button class="nav-link b_tab_pane_main" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">2</button>
+			  </li>
+			</ul>
+		</div>
+	</section>
+	<!--Tab-pane-blog-end-->
+
+	<!--Footer-top-start-->
+	<section class="footer_top_section b_footer_top_section">
+		<div class="container">
+			<div class="row footer_row">
+				<div class="col-md-3">
+					<div class="footer_col_content_div d-flex flex-column h-100">
+						<div class="footer_logo_div">
+							<a href="#">
+								<img src="Images/d-w-logo.svg" class="img-fluid footer_img_css mb-3">
+							</a>
+						</div>
+						<p class="footer_para_one">Indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire that they cannot foresee pain trouble.</p>
+						<div class="progress_below_div b_progress_below_div d-flex">
+							<div class="progess_pdf_icon_div b_progess_pdf_icon_div d-flex justify-content-center align-items-center me-3">
+								<i class="fa fa-file-text-o" aria-hidden="true"></i>
+							</div>
+							<div class="progess_icon_para_div d-flex flex-column">
+								<a class="href_css" href="#">
+									<p class="progess_icon_para_one b_progess_icon_para_one mb-0">
+										GUIDENCE NOTES
+									</p>
+								</a>
+								<p class="progess_icon_para_two b_progess_icon_para_two mb-0">
+									Visa Application Form
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-3 mt-4 mt-md-0">
+					<div class="col_second_dontent_div d-flex flex-column">
+						<p class="USA_css">Quick Links</p>
+						<div class="USA_line b_USA_line"></div>
+						<div class="quick_links_link_div d-flex flex-column mt-4">
+							<div class="q_l_content_item_div b_q_l_content_item_div d-flex">
+								<div class="q_l_arrow_div">
+									<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+								</div>
+								<p class="footer_para_one q_l_para_css mb-0">About Us</p>
+							</div>
+							<div class="q_l_content_item_div b_q_l_content_item_div d-flex">
+								<div class="q_l_arrow_div">
+									<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+								</div>
+								<p class="footer_para_one q_l_para_css mb-0">Our Team</p>
+							</div>
+							<div class="q_l_content_item_div b_q_l_content_item_div d-flex">
+								<div class="q_l_arrow_div">
+									<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+								</div>
+								<p class="footer_para_one q_l_para_css mb-0">Our FAQs</p>
+							</div>
+							<div class="q_l_content_item_div b_q_l_content_item_div d-flex">
+								<div class="q_l_arrow_div">
+									<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+								</div>
+								<p class="footer_para_one q_l_para_css mb-0">Blog Grid View</p>
+							</div>
+							<div class="q_l_content_item_div b_q_l_content_item_div d-flex">
+								<div class="q_l_arrow_div">
+									<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+								</div>
+								<p class="footer_para_one q_l_para_css mb-0">Our Blog</p>
+							</div>
+							<div class="q_l_content_item_div b_q_l_content_item_div d-flex">
+								<div class="q_l_arrow_div">
+									<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+								</div>
+								<p class="footer_para_one q_l_para_css mb-0">Contact Us</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-3 mt-4 mt-md-0">
+					<div class="col_second_dontent_div d-flex flex-column">
+						<p class="USA_css">Our Visa</p>
+						<div class="USA_line b_USA_line"></div>
+						<div class="quick_links_link_div d-flex flex-column mt-4">
+							<div class="q_l_content_item_div b_q_l_content_item_div d-flex">
+								<div class="q_l_arrow_div">
+									<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+								</div>
+								<p class="footer_para_one q_l_para_css mb-0">Student Visa</p>
+							</div>
+							<div class="q_l_content_item_div b_q_l_content_item_div d-flex">
+								<div class="q_l_arrow_div">
+									<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+								</div>
+								<p class="footer_para_one q_l_para_css mb-0">Residence Visa</p>
+							</div>
+							<div class="q_l_content_item_div b_q_l_content_item_div d-flex">
+								<div class="q_l_arrow_div">
+									<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+								</div>
+								<p class="footer_para_one q_l_para_css mb-0">Business Visa</p>
+							</div>
+							<div class="q_l_content_item_div b_q_l_content_item_div d-flex">
+								<div class="q_l_arrow_div">
+									<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+								</div>
+								<p class="footer_para_one q_l_para_css mb-0">Tourist Visa</p>
+							</div>
+							<div class="q_l_content_item_div b_q_l_content_item_div d-flex">
+								<div class="q_l_arrow_div">
+									<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+								</div>
+								<p class="footer_para_one q_l_para_css mb-0">Conference Visa</p>
+							</div>
+							<div class="q_l_content_item_div b_q_l_content_item_div d-flex">
+								<div class="q_l_arrow_div">
+									<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+								</div>
+								<p class="footer_para_one q_l_para_css mb-0">Medical Visa</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-3 mt-4 mt-md-0">
+					<div class="col_second_dontent_div d-flex flex-column">
+						<p class="USA_css">Recent Projects</p>
+						<div class="USA_line b_USA_line"></div>
+						<div class="row recent_post_row mt-4 g-4">
+							<div class="col-4">
+								<div class="r_p_hover_div">
+								<div class="recent_post_col_content_div d-flex justify-content-center align-items-center">
+									<div class="recent_post_overlay"></div>
+									<i class="fa fa-search-plus r_p_zoom_icon" aria-hidden="true"></i>
+								</div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="r_p_hover_div">
+								<div class="recent_post_col_content_div1 d-flex justify-content-center align-items-center">
+									<div class="recent_post_overlay"></div>
+									<i class="fa fa-search-plus r_p_zoom_icon" aria-hidden="true"></i>
+								</div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="r_p_hover_div">
+								<div class="recent_post_col_content_div2 d-flex justify-content-center align-items-center">
+									<div class="recent_post_overlay"></div>
+									<i class="fa fa-search-plus r_p_zoom_icon" aria-hidden="true"></i>
+								</div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="r_p_hover_div">
+								<div class="recent_post_col_content_div3 d-flex justify-content-center align-items-center">
+									<div class="recent_post_overlay"></div>
+									<i class="fa fa-search-plus r_p_zoom_icon" aria-hidden="true"></i>
+								</div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="r_p_hover_div">
+								<div class="recent_post_col_content_div4 d-flex justify-content-center align-items-center">
+									<div class="recent_post_overlay"></div>
+									<i class="fa fa-search-plus r_p_zoom_icon" aria-hidden="true"></i>
+								</div>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="r_p_hover_div">
+								<div class="recent_post_col_content_div5 d-flex justify-content-center align-items-center">
+									<div class="recent_post_overlay"></div>
+									<i class="fa fa-search-plus r_p_zoom_icon" aria-hidden="true"></i>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Footer-top-end-->
+
+	<!--Footer-bottom-start-->
+	<section class="footer_bottom_section b_footer_bottom_section">
+		<div class="container footer_bottom_container">
+			<div class="row footer_bottom_row justify-content-between">
+				<div class="col-md-4 mb-3 mb-md-0">
+					<div class="copy_right_div">
+						<p class="copy_right_css mb-0 text-center">
+							© 2022 <a href="#" class="immigo_f_b_href">Immigo.</a> All Rights Reserved.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-4">
+							<a href="#" class="href_css">
+							<div class="f_b_right_col_content">
+								<p class="copy_right_css nav_footer_bottom_right mb-0">Privacy Policy</p>
+							</div>
+							</a>
+						</div>
+						<div class="col-4">
+							<a href="#" class="href_css">
+							<div class="f_b_right_col_content">
+								<p class="copy_right_css nav_footer_bottom_right mb-0">Terms of use</p>
+							</div>
+							</a>
+						</div>
+						<div class="col-4">
+							<a href="#" class="href_css">
+							<div class="f_b_right_col_content">
+								<p class="copy_right_css nav_footer_bottom_right mb-0">Support</p>
+							</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Footer-bottom-end-->
+
+	<!--Move-top-start-->
+	<a href="#home_head" class="move_top_anchor d-flex justify-content-center align-items-center">
+		<i class="fa fa-angle-up" aria-hidden="true"></i>
+	</a>
+	<!--Move-top-end-->
+
+
+
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
